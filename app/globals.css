@@ -11,7 +11,10 @@
 
 body {
   @apply text-slate-900;
-  background-image: radial-gradient(circle at 10% 20%, #fff8e9 0%, #f6f3eb 40%, #eef1e5 100%);
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(198, 154, 58, 0.14) 0%, transparent 34%),
+    radial-gradient(circle at 85% 12%, rgba(102, 119, 68, 0.12) 0%, transparent 32%),
+    linear-gradient(125deg, #fcfaf4 0%, #f5f1e6 45%, #efeadc 100%);
 }
 
 @keyframes floatY {
